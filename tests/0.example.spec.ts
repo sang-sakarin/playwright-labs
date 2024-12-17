@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test';
 
-test('has title', async ({ page }) => {
+test('example challenges', async ({ page }) => {
   await page.goto('https://browser-automation-challenges-demo.netlify.app/');
 
   page.click("[id='start-challenge']");
